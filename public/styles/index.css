@@ -1,0 +1,157 @@
+#main-page .section-1 {
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--palette-gray);
+}
+
+#main-page .section-1 h1 {
+    text-align: center;
+    font-size: 2.2rem;
+}
+
+#main-page .section-2 {
+    background-color: var(--palette-black);
+}
+
+#main-page .section-2 .container {
+    background-image: url("../img/matt-index.png");
+    background-position-x: right;
+    padding: 44px 0;
+    background-repeat: no-repeat;
+    background-size: 300px;
+}
+
+#main-page .section-3 {
+    padding: 44px 0;
+    background-color: var(--palette-gray);
+}
+
+#main-page .section-3 h1 {
+    text-align: center;
+}
+
+#main-page .section-3 .technology-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    max-width: 100%;
+}
+
+#main-page .section-3 .technology-display img {
+    height: 90px;
+    flex: 1;
+    margin: 16px;
+    transition: 200ms;
+    object-fit: scale-down;
+}
+
+#main-page .section-3 .technology-display img:hover {
+    opacity: 0.4;
+}
+
+#main-page .section-4 {
+    padding: 44px 0;
+    background-color: var(--palette-black);
+}
+
+#main-page .section-4 h1 {
+    text-align: center;
+}
+
+#main-page .section-4 .technology-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    max-width: 100%;
+}
+
+#main-page .section-4 .technology-display img {
+    height: 90px;
+    flex: 1;
+    margin: 16px;
+    transition: 200ms;
+    object-fit: scale-down;
+}
+
+#main-page .section-4 .technology-display img:hover {
+    opacity: 0.4;
+}
+
+#main-page .section-5 {
+    padding: 44px 0;
+    background-color: var(--palette-gray);
+}
+
+#main-page .section-5 h1 {
+    text-align: center;
+}
+
+#main-page .section-5 .technology-display {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-flow: wrap;
+    max-width: 100%;
+}
+
+#main-page .section-5 .technology-display img {
+    height: 100px;
+    flex: 1;
+    margin: 16px;
+    transition: 200ms;
+    object-fit: scale-down;
+}
+
+#main-page .section-5 .technology-display img:hover {
+    opacity: 0.4;
+}
+
+#main-page .section-4 {
+    padding: 44px 0;
+    background-color: var(--palette-black);
+}
+
+#main-page .section-6 {
+    padding-top: 32px;
+    padding-bottom: 132px;
+}
+
+#main-page .section-6 h1 {
+    text-align: center;
+    margin-bottom: 32px;
+}
+
+#main-page .section-6 .game-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+#main-page .section-6 .game-list a {
+    flex: 1 1 49%;
+    cursor: pointer;
+    transition: 200ms;
+}
+
+#main-page .section-6 .game-list a:hover {
+    opacity: 0.5;
+}
+
+#main-page .section-6 .game-list .game img {
+    width: 100%;
+    border-radius: 16px;
+}
+
+#main-page footer {
+    background-color: var(--palette-gray);
+    padding: 32px 0;
+}
+
+#main-page footer p {
+    text-align: center;
+    margin-bottom: 0;
+}
